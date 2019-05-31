@@ -1,5 +1,9 @@
 package cn.kgc.tangcco.entity;
 
-public class Person {
+import lombok.Data;
 
+@Data
+public class Person {
+	private String name,no;
+	private int age;
 }
